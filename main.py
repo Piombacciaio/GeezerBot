@@ -178,7 +178,7 @@ async def delroles(ctx):
 @bot.command(usage=f"{bot.command_prefix}botinfo", description="get bot info", brief="tools")
 async def botinfo(ctx):
 
-    source_button = discord.ui.Button(label="Source", url="https://stackoverflow.com/questions/67722188/add-button-components-to-a-message-discord-py", emoji="<:GitHub:978680612087005225>")
+    source_button = discord.ui.Button(label="Source", url="https://github.com/Piombacciaio/GeezerBot", emoji="<:GitHub:978680612087005225>")
     embed=discord.Embed(title=TITLE, description=chr(173), color=COLOR)
     embed.add_field(name="Ping:", value=f"{round(bot.latency * 1000, 1)}ms", inline=True)
     embed.add_field(name="Version", value=f"{version}", inline=True)
