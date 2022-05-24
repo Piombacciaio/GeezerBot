@@ -1,0 +1,31 @@
+{
+    "levels": {
+    },
+    "bot": {
+        "token": "BOT_TOKEN",
+        "prefix": "$",
+        "embed": {
+            "color": "#0eeb3a",
+            "error_color": "#cd0000",
+            "title": "TITLE",
+            "icon": "ICON_URL"
+        }
+    },
+    "server": {
+        "id": "SERVER_ID",
+        "manager": "MANAGER_ID",
+        "owner": "OWNER_ID",
+        "roles": {
+            "mod_role": "MODERATOR_ROLE_ID",
+            "mute_role": "MUTE_ROLE_ID",
+            "member_role": "DEFAULT_MEMBER_ROLE_ID"
+        },
+        "channels": {
+            "role_channel": "COLOR_ROLE_CHANNEL",
+            "level_channel": "LEVEL_CHANNEL",
+            "modmail_channel": "MODMAIL_CHANNEL",
+            "modlog_channel": "MODLOG_CHANNEL",
+            "welcome_channel": "WELCOME_CHANNEL"
+        }
+    }
+}
